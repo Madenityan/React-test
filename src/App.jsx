@@ -55,7 +55,6 @@ class App extends React.Component {
                         <header className="header-section">
                             <h2>Projects</h2>
                         </header>
-
                         <div className="wrapper-projects">
                          <BankingCard />
                          <SliderProjects />
@@ -70,7 +69,7 @@ class App extends React.Component {
                         <header className="header-section">
                             <h2>Services</h2>
                         </header>
-                        <ServicesCard />
+                         <ServicesCard />
                         <div className="btn-services">
                             <a href="#" className="btn-section">full services</a>
                         </div>
