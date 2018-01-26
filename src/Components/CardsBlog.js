@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 const CardsBlog = () => {
     return (
 
@@ -7,7 +9,7 @@ const CardsBlog = () => {
             <div className="item mix masonry-cards">
                 <div className="icon-blog-masonry">
                     <i className="fa fa-quote-left icon-blog" aria-hidden="true"></i>
-                    <a href="#" className="btn-section">health</a>
+                    <Link to="/blogpost" className="btn-section">health</Link>
                 </div>
                 <div className="text-card-masonry">
                     <h3 className="title">Blog Heading Here</h3>
@@ -19,13 +21,13 @@ const CardsBlog = () => {
                         <span>5-12-2016</span>
                     </div>
                     <div className="icon-masonry-right">
-                        <a href="#"><i className="fa fa-share-alt icon-masonry" aria-hidden="true"></i></a>
+                        <Link to="/blogpost"><i className="fa fa-share-alt icon-masonry" aria-hidden="true"></i></Link>
                     </div>
                 </div>
             </div>
             <div className="item mix masonry-cards cards-img">
                 <i className="fa fa-picture-o icon-blog" aria-hidden="true"></i>
-                <a href="#" className="btn-section">business</a>
+                <Link to="/blogpost" className="btn-section">business</Link>
                 <div className="masonry-cards-img">
                     <img src="img/blog_masonry_1.png" alt="blog-masonry"/>
                 </div>
@@ -40,7 +42,7 @@ const CardsBlog = () => {
                             <span>5-12-2016</span>
                         </div>
                         <div className="icon-masonry-right">
-                            <a href="#"><i className="fa fa-share-alt icon-masonry" aria-hidden="true"></i></a>
+                            <Link to="/blogpost"><i className="fa fa-share-alt icon-masonry" aria-hidden="true"></i></Link>
                         </div>
                     </div>
                 </div>
@@ -48,7 +50,7 @@ const CardsBlog = () => {
             <div className="item mix masonry-cards">
                 <div className="icon-blog-masonry">
                     <i className="fa fa-quote-left icon-blog" aria-hidden="true"></i>
-                    <a href="#" className="btn-section">health</a>
+                    <Link to="/blogpost" className="btn-section">health</Link>
                 </div>
                 <div className="text-card-masonry">
                     <h3 className="title">Blog Heading Here</h3>
@@ -60,13 +62,13 @@ const CardsBlog = () => {
                         <span>5-12-2016</span>
                     </div>
                     <div className="icon-masonry-right">
-                        <a href="#"><i className="fa fa-share-alt icon-masonry" aria-hidden="true"></i></a>
+                        <Link to="/blogpost"><i className="fa fa-share-alt icon-masonry" aria-hidden="true"></i></Link>
                     </div>
                 </div>
             </div>
             <div className="item mix masonry-cards cards-img masonry-img">
                 <i className="fa fa-picture-o icon-blog" aria-hidden="true"></i>
-                <a href="#" className="btn-section">business</a>
+                <Link to="/blogpost" className="btn-section">business</Link>
                 <div className="masonry-cards-img">
                     <img src="img/blog_masonry_2.png" alt="blog-masonry"/>
                     <div className="icon-masonry-wrapper">
@@ -75,7 +77,7 @@ const CardsBlog = () => {
                             <span>5-12-2016</span>
                         </div>
                         <div className="icon-masonry-right">
-                            <a href="#"><i className="fa fa-share-alt icon-masonry" aria-hidden="true"></i></a>
+                            <Link to="/blogpost"><i className="fa fa-share-alt icon-masonry" aria-hidden="true"></i></Link>
                         </div>
                     </div>
                 </div>
@@ -83,7 +85,7 @@ const CardsBlog = () => {
             <div className="item mix masonry-cards cards-masonry-color">
                 <div className="icon-blog-masonry">
                     <i className="fa fa-link icon-blog" aria-hidden="true"></i>
-                    <a href="#" className="btn-section">health</a>
+                    <Link to="/blogpost" className="btn-section">health</Link>
                 </div>
                 <div className="text-card-masonry">
                     <h3 className="title">Blog Heading Here</h3>
@@ -95,14 +97,14 @@ const CardsBlog = () => {
                         <span>5-12-2016</span>
                     </div>
                     <div className="icon-masonry-right">
-                        <a href="#"><i className="fa fa-share-alt icon-masonry" aria-hidden="true"></i></a>
+                        <Link to="/blogpost"><i className="fa fa-share-alt icon-masonry" aria-hidden="true"></i></Link>
                     </div>
                 </div>
             </div>
             <div className="item mix masonry-cards">
                 <div className="icon-blog-masonry">
                     <i className="fa fa-link icon-blog icon-large" aria-hidden="true"></i>
-                    <a href="#" className="btn-section">education</a>
+                    <Link to="/blogpost" className="btn-section">education</Link>
                 </div>
                 <div className="text-card-masonry">
                     <h3 className="title">Blog Heading Here</h3>
@@ -114,13 +116,13 @@ const CardsBlog = () => {
                         <span>5-12-2016</span>
                     </div>
                     <div className="icon-masonry-right">
-                        <a href="#"><i className="fa fa-share-alt icon-masonry" aria-hidden="true"></i></a>
+                        <Link to="/blogpost"><i className="fa fa-share-alt icon-masonry" aria-hidden="true"></i></Link>
                     </div>
                 </div>
             </div>
             <div className="item mix masonry-cards cards-img">
                 <i className="fa fa-youtube-play icon-blog" aria-hidden="true"></i>
-                <a href="#" className="btn-section">business</a>
+                <Link to="/blogpost" className="btn-section">business</Link>
                 <div className="masonry-cards-img">
                     <img src="img/blog_masonry_3.png" alt="blog-masonry"/>
                 </div>
@@ -135,7 +137,7 @@ const CardsBlog = () => {
                             <span>5-12-2016</span>
                         </div>
                         <div className="icon-masonry-right">
-                            <a href="#"><i className="fa fa-share-alt icon-masonry" aria-hidden="true"></i></a>
+                            <Link to="/blogpost"><i className="fa fa-share-alt icon-masonry" aria-hidden="true"></i></Link>
                         </div>
                     </div>
                 </div>
@@ -143,7 +145,7 @@ const CardsBlog = () => {
             <div className="item mix masonry-cards cards-masonry-color">
                 <div className="icon-blog-masonry">
                     <i className="fa fa-link icon-blog" aria-hidden="true"></i>
-                    <a href="#" className="btn-section">health</a>
+                    <Link to="/blogpost" className="btn-section">health</Link>
                 </div>
                 <div className="text-card-masonry">
                     <h3 className="title">Blog Heading Here</h3>
@@ -155,13 +157,13 @@ const CardsBlog = () => {
                         <span>5-12-2016</span>
                     </div>
                     <div className="icon-masonry-right">
-                        <a href="#"><i className="fa fa-share-alt icon-masonry" aria-hidden="true"></i></a>
+                        <Link to="/blogpost"><i className="fa fa-share-alt icon-masonry" aria-hidden="true"></i></Link>
                     </div>
                 </div>
             </div>
             <div className="item mix masonry-cards cards-img">
                 <i className="fa fa-picture-o icon-blog icon-large-2" aria-hidden="true"></i>
-                <a href="#" className="btn-section">technology</a>
+                <Link to="/blogpost"className="btn-section">technology</Link>
                 <div className="masonry-cards-img">
                     <img src="img/blog_masonry_4.png" alt="blog-masonry"/>
                 </div>
@@ -176,7 +178,7 @@ const CardsBlog = () => {
                             <span>5-12-2016</span>
                         </div>
                         <div className="icon-masonry-right">
-                            <a href="#"><i className="fa fa-share-alt icon-masonry" aria-hidden="true"></i></a>
+                            <Link to="/blogpost"><i className="fa fa-share-alt icon-masonry" aria-hidden="true"></i></Link>
                         </div>
                     </div>
                 </div>

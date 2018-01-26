@@ -17,9 +17,9 @@ class BlogPage extends React.Component {
                 <section className="wrapper-page">
                     <div className="container">
                         <Header />
-                        <div class="jumbotron jumbotron-fluid jumbotron-page">
-                            <div class="container-jumbotron">
-                                <h3 class="lead">blog</h3>
+                        <div className="jumbotron jumbotron-fluid jumbotron-page">
+                            <div className="container-jumbotron">
+                                <h3 className="lead">blog</h3>
                             </div>
                         </div>
                     </div>

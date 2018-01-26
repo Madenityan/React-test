@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 const PriceCard = () => {
     return (
 
@@ -21,7 +23,7 @@ const PriceCard = () => {
                             Fusce eleifend lectus.
                         </li>
                     </ul>
-                    <a href="#" className="btn-section">choose plan</a>
+                    <Link to="/testimonials" className="btn-section">choose plan</Link>
                 </div>
             </li>
             <li>
@@ -44,7 +46,7 @@ const PriceCard = () => {
                             Etiam pulvinar elementum.
                         </li>
                     </ul>
-                    <a href="#" className="btn-section">choose plan</a>
+                    <Link to="/testimonials" className="btn-section">choose plan</Link>
                 </div>
             </li>
             <li>
@@ -67,7 +69,7 @@ const PriceCard = () => {
                             Etiam pulvinar elementum.
                         </li>
                     </ul>
-                    <a href="#" className="btn-section">choose plan</a>
+                    <Link to="/testimonials" className="btn-section">choose plan</Link>
                 </div>
             </li>
         </ul>

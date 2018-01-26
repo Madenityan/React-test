@@ -1,5 +1,6 @@
-
 import React from 'react';
+
+import { Link } from 'react-router-dom';
 
 const CardsIndustary = () => {
     return (
@@ -10,7 +11,7 @@ const CardsIndustary = () => {
                     <h3 className="title">business</h3>
                     <p className="text-section">Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
                     <div className="btn-about">
-                        <a href="#" className="btn-section">choose your service</a>
+                        <Link to="/blog" className="btn-section">choose your service</Link>
                     </div>
                 </div>
             </li>
@@ -20,7 +21,7 @@ const CardsIndustary = () => {
                     <h3 className="title">education</h3>
                     <p className="text-section">Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
                     <div className="btn-about">
-                        <a href="#" className="btn-section">choose your service</a>
+                        <Link to="/blog" className="btn-section">choose your service</Link>
                     </div>
                 </div>
             </li>
@@ -30,7 +31,7 @@ const CardsIndustary = () => {
                     <h3 className="title">technology</h3>
                     <p className="text-section">Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
                     <div className="btn-about">
-                        <a href="#" className="btn-section">choose your service</a>
+                        <Link to="/blog" className="btn-section">choose your service</Link>
                     </div>
                 </div>
             </li>
@@ -40,7 +41,7 @@ const CardsIndustary = () => {
                     <h3 className="title">real estate</h3>
                     <p className="text-section">Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
                     <div className="btn-about">
-                        <a href="#" className="btn-section">choose your service</a>
+                        <Link to="/blog" className="btn-section">choose your service</Link>
                     </div>
                 </div>
             </li>
@@ -50,7 +51,7 @@ const CardsIndustary = () => {
                     <h3 className="title">telecommunication</h3>
                     <p className="text-section">Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
                     <div className="btn-about">
-                        <a href="#" className="btn-section">choose your service</a>
+                        <Link to="/blog" className="btn-section">choose your service</Link>
                     </div>
                 </div>
             </li>
@@ -60,7 +61,7 @@ const CardsIndustary = () => {
                     <h3 className="title">BANKING & FINANCIAL</h3>
                     <p className="text-section">Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
                     <div className="btn-about">
-                        <a href="#" className="btn-section">choose your service</a>
+                        <Link to="/blog" className="btn-section">choose your service</Link>
                     </div>
                 </div>
             </li>
@@ -70,7 +71,7 @@ const CardsIndustary = () => {
                     <h3 className="title">law</h3>
                     <p className="text-section">Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
                     <div className="btn-about">
-                        <a href="#" className="btn-section">choose your service</a>
+                        <Link to="/blog" className="btn-section">choose your service</Link>
                     </div>
                 </div>
             </li>
@@ -80,7 +81,7 @@ const CardsIndustary = () => {
                     <h3 className="title">construction</h3>
                     <p className="text-section">Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
                     <div className="btn-about">
-                        <a href="#" className="btn-section">choose your service</a>
+                        <Link to="/blog" className="btn-section">choose your service</Link>
                     </div>
                 </div>
             </li>

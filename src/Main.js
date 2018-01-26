@@ -10,6 +10,9 @@ import Careers from './Pages/Careers';
 import Contact from './Pages/Contact';
 import Industry from './Pages/Industry';
 import Pricing from './Pages/Pricing';
+import Blog from './Pages/Blog';
+import BlogPost from './Pages/BlogPost';
+import Testimonials from './Pages/Testimonials';
 
 
 class Main extends React.Component {
@@ -23,6 +26,9 @@ class Main extends React.Component {
                     <Route path="/pricing" component={Pricing}/>
                     <Route path="/careers" component={Careers}/>
                     <Route path="/contact" component={Contact}/>
+                    <Route path="/blog" component={Blog}/>
+                    <Route path="/blogpost" component={BlogPost}/>
+                    <Route path="/testimonials" component={Testimonials}/>
                 </div>
         );
     }

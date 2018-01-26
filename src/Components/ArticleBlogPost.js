@@ -1,11 +1,13 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 const ArticleBlogPost = () => {
     return (
 
         <article className="blog-main">
             <i className="fa fa-picture-o icon-blog" aria-hidden="true"></i>
-            <a href="blog-page.html" className="btn-section">business</a>
+            <Link to="/blog" className="btn-section">business</Link>
             <img src="img/blog-post-1.png" alt="image-blog"/>
             <div className="blog-main-text">
                 <h3 className="title">Blog Heading Here</h3>

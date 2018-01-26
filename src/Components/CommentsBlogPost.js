@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
 
 const CommentsBlogPost = () => {
     return (
@@ -10,7 +11,7 @@ const CommentsBlogPost = () => {
                 <div className="comment-visitor">
                     <div className="wrapper-comment">
                         <h3 className="title">visitor name</h3>
-                        <a href="#" className="btn-section">reply</a>
+                        <Link to="/blog" className="btn-section">reply</Link>
                     </div>
                     <p className="text-section">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first</p>
                 </div>
@@ -20,7 +21,7 @@ const CommentsBlogPost = () => {
                 <div className="comment-visitor">
                     <div className="wrapper-comment">
                         <h3 className="title">visitor name</h3>
-                        <a href="#" className="btn-section">reply</a>
+                        <Link to="/blog" className="btn-section">reply</Link>
                     </div>
                     <p className="text-section">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first</p>
                 </div>
@@ -30,7 +31,7 @@ const CommentsBlogPost = () => {
                 <div className="comment-visitor">
                     <div className="wrapper-comment">
                         <h3 className="title">visitor name</h3>
-                        <a href="#" className="btn-section">reply</a>
+                        <Link to="/blog" className="btn-section">reply</Link>
                     </div>
                     <p className="text-section">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first</p>
                 </div>

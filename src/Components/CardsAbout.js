@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 const CardsAbout = () => {
 
     const listAbout = [
@@ -37,7 +39,7 @@ const CardsAbout = () => {
                                 <h3 className="title title-about">{item.titleCard}</h3>
                                 <p className="text-section">{item.classText}</p>
                                 <div className="btn-about">
-                                    <a href="#" className="btn-section btn-cards">{item.classbatton}</a>
+                                    <Link to="/careers" className="btn-section btn-cards">{item.classbatton}</Link>
                                 </div>
                             </div>
                         </li>

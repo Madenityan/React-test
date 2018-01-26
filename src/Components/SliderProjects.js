@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
     const $ = window.$;
     componentDidMount: {
         $('.slider-projects').slick({
@@ -20,7 +22,7 @@ import React from 'react';
             <div className="slider-projects">
                 <div className="slide-projects">
                     <div className="img-slide-projects">
-                        <a href="#" className="btn-transparent btn-section">real estate</a>
+                        <Link to="/industry" className="btn-transparent btn-section">real estate</Link>
                         <img src="img/slider-projects.png" alt="projects-1"/>
                     </div>
                     <div className="text-slide-projects">
@@ -30,7 +32,7 @@ import React from 'react';
                 </div>
                 <div className="slide-projects">
                     <div className="img-slide-projects">
-                        <a href="#" className="btn-transparent btn-section">real estate</a>
+                        <Link to="/industry" className="btn-transparent btn-section">real estate</Link>
                         <img src="img/slider-projects.png" alt="projects-1"/>
                     </div>
                     <div className="text-slide-projects">
@@ -40,7 +42,7 @@ import React from 'react';
                 </div>
                 <div className="slide-projects">
                     <div className="img-slide-projects">
-                        <a href="#" className="btn-transparent btn-section">real estate</a>
+                        <Link to="/industry" className="btn-transparent btn-section">real estate</Link>
                         <img src="img/slider-projects.png" alt="projects-1"/>
                     </div>
                     <div className="text-slide-projects">

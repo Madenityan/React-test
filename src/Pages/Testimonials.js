@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from 'react-router-dom';
+
 
 //Components
 import Header from '../Header';
@@ -46,7 +48,7 @@ class Testimonials extends React.Component {
                             <SliderProjects />
                         </div>
                         <div className="btn-projects">
-                            <a href="#" className="btn-section">full project</a>
+                            <Link to="/industry"> className="btn-section">full project</Link>
                         </div>
                     </div>
                 </section>

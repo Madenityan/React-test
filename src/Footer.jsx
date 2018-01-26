@@ -1,6 +1,8 @@
 import React from 'react';
 
 
+import { Link } from 'react-router-dom';
+
 const Footer = () => {
     return (
         <div>
@@ -12,22 +14,22 @@ const Footer = () => {
                         </div>
                         <ul className="menu-footer">
                             <li><h3>navigation</h3></li>
-                            <li><a href="#">home</a></li>
-                            <li><a href="#">about us</a></li>
-                            <li><a href="#">industry</a></li>
-                            <li><a href="#">services</a></li>
-                            <li><a href="#">pages</a></li>
-                            <li><a href="#">contact us</a></li>
+                            <li><Link to="/">home</Link></li>
+                            <li><Link to="/about">about us</Link></li>
+                            <li><Link to="/industry">industry</Link></li>
+                            <li><Link to="/pricing">services</Link></li>
+                            <li><Link to="/careers">pages</Link></li>
+                            <li><Link to="/contact">contact us</Link></li>
                         </ul>
                         <ul className="menu-footer">
                             <li><h3>industary</h3></li>
-                            <li><a href="#">education</a></li>
-                            <li><a href="#">business</a></li>
-                            <li><a href="#">realestate</a></li>
-                            <li><a href="#">technology</a></li>
-                            <li><a href="#">banking</a></li>
-                            <li><a href="#">communication</a></li>
-                            <li><a href="#">much more</a></li>
+                            <li><Link to="/industry">education</Link></li>
+                            <li><Link to="/industry">business</Link></li>
+                            <li><Link to="/industry">realestate</Link></li>
+                            <li><Link to="/industry">technology</Link></li>
+                            <li><Link to="/industry">banking</Link></li>
+                            <li><Link to="/industry">communication</Link></li>
+                            <li><Link to="/industry">much more</Link></li>
                         </ul>
                         <ul className="subscribe-footer">
                             <li><h3>News letter</h3></li>
