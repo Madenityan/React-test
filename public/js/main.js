@@ -100,10 +100,10 @@ $(document).ready(function() {
     });
 
 
-    $(".button-apply").on("click",function(e){
-        e.preventDefault();
-        $(this).parent().parent().parent().find('.slide-toggle').slideToggle();
-    });
+    // $(".button-apply").on("click",function(e){
+    //     e.preventDefault();
+    //     $(this).parent().parent().parent().find('.slide-toggle').slideToggle();
+    // });
 
 
     var $container = $('.masonry-container');
