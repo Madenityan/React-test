@@ -52,11 +52,11 @@ const Footer = () => {
                         <p className="text-section">Copyright © 2016 Consultplus theme.</p>
                     </div>
                     <div className="social">
-                        <a href="#" className="facebook">facebook</a>
-                        <a href="#" className="twitter">twitter</a>
-                        <a href="#" className="instagram">instagram</a>
-                        <a href="#" className="linkedin">linkedin</a>
-                        <a href="#" className="google">google +</a>
+                        <Link to="/https://www.facebook.com/" className="facebook">facebook</Link>
+                        <Link to="/https://twitter.com" className="twitter">twitter</Link>
+                        <Link to="/https://www.instagram.com" className="instagram">instagram</Link>
+                        <Link to="/https://www.linkedin.com" className="linkedin">linkedin</Link>
+                        <Link to="/https://plus.google.com" className="google">google +</Link>
                     </div>
                 </div>
             </footer>

@@ -2,10 +2,8 @@ import React from 'react';
 
 //Components
 import Header from '../Header';
-import Jumbotron from '../Components/Jumbotron';
 import Footer from '../Footer';
 import Vacancy from '../Components/Vacancy';
-import SliderLogo from '../Components/SliderLogo';
 import Quote from '../Components/Quote';
 
 
@@ -37,7 +35,7 @@ class Careers extends React.Component {
                             <h2>Testimonials</h2>
                         </header>
                         <div className="img-testimonials">
-                            <img src="img/image.png" alt="image"/>
+                            <img src="img/image.png" alt="careers"/>
                         </div>
                        <Quote />
                     </div>

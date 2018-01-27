@@ -5,7 +5,7 @@ const Cards = () => {
         <div className="wrapper-blog">
             <div className="blog-1">
                 <div className="blog-img">
-                    <img src="img/photo-blog.png" alt="photo-blog"/>
+                    <img src="img/photo-blog.png" alt="blog"/>
                 </div>
                 <div className="blog-text">
                     <span>February 22, 2016 </span>

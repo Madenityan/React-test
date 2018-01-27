@@ -36,7 +36,7 @@ class Industry extends React.Component {
                             <h2>Testimonials</h2>
                         </header>
                         <div className="img-testimonials">
-                            <img src="img/image.png" alt="image"/>
+                            <img src="img/image.png" alt="people"/>
                         </div>
                         <Quote />
                     </div>

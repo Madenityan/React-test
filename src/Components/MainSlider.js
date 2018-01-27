@@ -1,6 +1,7 @@
 import React from 'react';
 
 const MainSlider = () => {
+
     const $ = window.$;
     componentDidMount: {
         $('.slider').slick({

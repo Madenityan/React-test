@@ -29,9 +29,7 @@ class BlogPage extends React.Component {
                         <header className="header-section">
                             <h2 className="header-left">blog page</h2>
                         </header>
-                    <div className="masonry-container container-mix">
                         <CardsBlog/>
-                    </div>
                     <PageNav />
                 </div>
                 </section>

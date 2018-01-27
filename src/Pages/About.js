@@ -28,7 +28,7 @@ class About extends React.Component {
                         <AboutUsInfo />
                         <div className="sidebar">
                             <div className="video-about">
-                                <img src="img/video-about-page.png" alt="video"/>
+                                <img src="img/video-about-page.png" alt="office"/>
                             </div>
                             <div className="consultation-about">
                                 <h3>free consultation</h3>
@@ -48,7 +48,7 @@ class About extends React.Component {
                             <h2>Testimonials</h2>
                         </header>
                         <div className="img-testimonials">
-                            <img src="img/image.png" alt="image"/>
+                            <img src="img/image.png" alt="client"/>
                         </div>
                         <Quote />
                     </div>

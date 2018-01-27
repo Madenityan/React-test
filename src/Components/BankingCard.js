@@ -1,10 +1,12 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 const BankingCard = () => {
     return (
         <div>
             <div className="banking-card">
-                <a href="#" className="btn-transparent btn-section">banking</a>
+                <Link to="/pricing" className="btn-transparent btn-section">banking</Link>
                 <img src="img/banking.png" alt="img-banking"/>
                 <div className="comment-card">
                     <h3>Project Heading</h3>

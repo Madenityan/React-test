@@ -1,19 +1,20 @@
 import React from 'react';
 
-    const $ = window.$;
-    componentDidMount: {
-        $('.slider-testimonials').slick({
-            dots: true,
-            infinite: false,
-            arrows: false,
-            fade: true,
-            adaptiveHeight: true,
-            autoplay: true,
-            autoplaySpeed: 1500
-        });
-    }
-
         const SliderTestimonials = () => {
+
+            const $ = window.$;
+            componentDidMount: {
+                $('.slider-testimonials').slick({
+                    dots: true,
+                    infinite: false,
+                    arrows: false,
+                    fade: true,
+                    adaptiveHeight: true,
+                    autoplay: true,
+                    autoplaySpeed: 1500
+                });
+            }
+
             return (
 
                 <div className="slider-testimonials">

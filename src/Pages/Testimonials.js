@@ -48,7 +48,7 @@ class Testimonials extends React.Component {
                             <SliderProjects />
                         </div>
                         <div className="btn-projects">
-                            <Link to="/industry"> className="btn-section">full project</Link>
+                            <Link to="/industry" className="btn-section">full project</Link>
                         </div>
                     </div>
                 </section>

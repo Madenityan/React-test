@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 
 //Components
 import Footer from '../Footer';
@@ -36,7 +38,7 @@ class Home extends React.Component {
                             <p className="text-section">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
                         </div>
                         <div className="wrapper-btn">
-                            <a href="about-page.html" className="btn-section">read more</a>
+                            <Link to="/about" className="btn-section">read more</Link>
                         </div>
                         <SliderLogo />
                     </div>
@@ -49,7 +51,7 @@ class Home extends React.Component {
                         <FeaturesCard />
                         <div className="boost-business">
                             <p>If you want to boost your business Contact us</p>
-                            <a href="#" className="btn-section">Boost your business</a>
+                            <Link to="/industry" className="btn-section">Boost your business</Link>
                         </div>
                     </div>
                 </section>
@@ -63,7 +65,7 @@ class Home extends React.Component {
                             <SliderProjects />
                         </div>
                         <div className="btn-projects">
-                            <a href="#" className="btn-section">full project</a>
+                            <Link to="/pricing" className="btn-section">full project</Link>
                         </div>
                     </div>
                 </section>
@@ -74,7 +76,7 @@ class Home extends React.Component {
                         </header>
                         <ServicesCard />
                         <div className="btn-services">
-                            <a href="#" className="btn-section">full services</a>
+                            <Link to="/pricing" className="btn-section">full services</Link>
                         </div>
                     </div>
                 </section>
@@ -84,7 +86,7 @@ class Home extends React.Component {
                             <h2>Testimonials</h2>
                         </header>
                         <div className="img-testimonials">
-                            <img src="img/image.png" alt="image"/>
+                            <img src="img/image.png" alt="testimonials"/>
                         </div>
                         <Quote />
                     </div>
@@ -96,7 +98,7 @@ class Home extends React.Component {
                         </header>
                         <Blog/>
                         <div className="btn-blog">
-                            <a href="#" className="btn-section">full blog</a>
+                            <Link to="/blog" className="btn-section">full blog</Link>
                         </div>
                     </div>
                 </section>

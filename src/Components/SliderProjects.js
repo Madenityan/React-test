@@ -2,22 +2,24 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-    const $ = window.$;
-    componentDidMount: {
-        $('.slider-projects').slick({
-            dots: true,
-            infinite: false,
-            arrows: false,
-            fade: true,
-            slidesToShow: 1,
-            adaptiveHeight: true,
-            autoplay: true,
-            autoplaySpeed: 1500
-
-        });
-    }
 
     const SliderProjects = () => {
+
+        const $ = window.$;
+        componentDidMount: {
+            $('.slider-projects').slick({
+                dots: true,
+                infinite: false,
+                arrows: false,
+                fade: true,
+                slidesToShow: 1,
+                adaptiveHeight: true,
+                autoplay: true,
+                autoplaySpeed: 1500
+
+            });
+        }
+
         return (
             <div className="slider-projects">
                 <div className="slide-projects">

@@ -2,7 +2,6 @@ import React from 'react';
 
 //Components
 import Header from '../Header';
-import Jumbotron from '../Components/Jumbotron';
 import Footer from '../Footer';
 import Location from '../Components/Location';
 import FormContact from '../Components/FormContact';
@@ -15,9 +14,9 @@ class Contact extends React.Component {
                 <section className="wrapper-page">
                     <div className="container">
                         <Header />
-                        <div class="jumbotron jumbotron-fluid jumbotron-page">
-                            <div class="container-jumbotron">
-                                <h3 class="lead">concact us</h3>
+                        <div className="jumbotron jumbotron-fluid jumbotron-page">
+                            <div className="container-jumbotron">
+                                <h3 className="lead">concact us</h3>
                             </div>
                         </div>
                     </div>
